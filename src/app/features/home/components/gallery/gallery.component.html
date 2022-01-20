@@ -1,0 +1,9 @@
+<div class="gallery-container">
+  <div class="card-container" *ngFor="let content of gallery">
+    <app-image [image]="content.image"></app-image>
+    <div class="gallery-guitarData">
+      <h3>{{ content.title }}</h3>
+      <p>{{ content.price }}</p>
+    </div>
+  </div>
+</div>

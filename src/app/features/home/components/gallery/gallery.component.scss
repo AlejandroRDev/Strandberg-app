@@ -1,0 +1,27 @@
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    margin-bottom: 200px;
+    .card-container {
+        width: 400px;
+        height: 400px;
+        padding: 50px 20px;
+        .gallery-guitarData {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        h3 {
+            padding: 10px 0px;
+            width: 60%;
+        }
+        p {
+            padding: 10px 0px;
+        }
+        
+    }
+}

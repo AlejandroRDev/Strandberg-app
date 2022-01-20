@@ -1,0 +1,10 @@
+<div class="header-content">
+  <div class="header-image--container">
+    <app-image [image]="header.image"></app-image>
+  </div>
+  <div class="header-text--container">
+    <p class="header-text--content" *ngFor="let textNav of header.text">
+      {{ textNav }}
+    </p>
+  </div>
+</div>

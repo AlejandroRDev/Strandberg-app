@@ -1,0 +1,27 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    .hero-filter {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        border-top: 2px solid black;
+        padding-bottom: 50px;
+        margin-top: 75px;
+        li {
+            padding: 20px;
+        }
+    }
+    p {
+        font-size: 18px;
+        padding: 25px;
+    }
+    h1 {
+        padding: 50px;
+        font-size: 50px;
+        font-weight: 400;
+    }
+}
